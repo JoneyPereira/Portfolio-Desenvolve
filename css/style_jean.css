@@ -104,15 +104,21 @@ button:focus{
 
 .item_skills {
   display: flex;
+  align-items: center;
+}
+
+.item_skills li{
+  margin: 20px;
 }
 
 .item_skills img {
-  margin: 35px;
+  margin: 10px;
 }
 .details_list {
   margin: auto;
 
 }
+
 details {
   list-style: none;
 }

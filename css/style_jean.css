@@ -101,22 +101,19 @@ button {
 button:focus{
   outline-style: none;
 }
-
-.item_skills {
+.item_skills{
   display: flex;
-  align-items: center;
+  align-items: stretch;
 }
-
-.item_skills li{
-  margin: 20px;
-}
-
 .item_skills img {
-  margin: 10px;
+  margin: 18px;
 }
+.item_skills li{
+  margin: 2%;
+}
+
 .details_list {
   margin: auto;
-
 }
 
 details {
